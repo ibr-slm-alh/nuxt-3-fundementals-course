@@ -26,15 +26,7 @@ search();
     >
         <li v-for="movie in movies" :key="movie.imdbID">
             <NuxtLink :to="{ name: 'movies-id', params: { id: movie.imdbID } }">
-                <!-- <img :src="movie.Poster" :alt="movie.title" /> -->
-                <NuxtImg
-                    :src="movie.Poster"
-                    sizes="sm:100vw md:50vw lg:800px"
-                    format="webp"
-                    quality="80"
-                    loading="lazy"
-                    style="width: 100%"
-                />
+                <img :src="movie.Poster" :alt="movie.title" />
             </NuxtLink>
         </li>
     </ul>
