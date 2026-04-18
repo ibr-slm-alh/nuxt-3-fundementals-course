@@ -9,5 +9,12 @@ export default defineNuxtConfig({
         "/spa": { ssr: false },
         "/static": { static: true },
         "/swr": { swr: true },
+        //     مثال واقعي
+        // Home → Static
+        // Blog → ISR
+        // Product → SSR
+        // Admin → SPA
+
+        // 👉 هذا هو Hyper Rendering الحقيقي
     },
 });
