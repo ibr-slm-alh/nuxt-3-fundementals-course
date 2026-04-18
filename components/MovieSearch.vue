@@ -38,26 +38,6 @@ search();
             </NuxtLink>
         </li>
     </ul>
-    <NuxtImg
-        src="https://res.cloudinary.com/demo/image/upload/sample.jpg"
-        sizes="(max-width: 768px) 100vw, 50vw"
-        style="width: 100%"
-    />
-    <NuxtImg
-        src="https://res.cloudinary.com/demo/image/upload/sample.jpg"
-        sizes="(max-width: 768px) 100vw, 50vw"
-        style="width: 100%"
-    />
-    <NuxtImg
-        src="https://res.cloudinary.com/demo/image/upload/sample.jpg"
-        sizes="(max-width: 768px) 100vw, 50vw"
-        style="width: 100%"
-    />
-    <NuxtImg
-        src="https://res.cloudinary.com/demo/image/upload/sample.jpg"
-        sizes="(max-width: 768px) 100vw, 50vw"
-        style="width: 100%"
-    />
 </template>
 
 <style scoped></style>
